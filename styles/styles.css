@@ -34,7 +34,7 @@ background-color: white;
 padding: 10px;
 margin: 20px;
 text-align: center;
-vertical-align: middle;
+
  }
 
  .home-button:hover {
@@ -99,12 +99,13 @@ img {
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
        
 }
 
 .portfolio-item {
-    
+
+    align-self: flex-start;
     margin-top: 15px;
 
 }
@@ -165,7 +166,7 @@ footer {
         flex-wrap: wrap;
     }
     .portfolio-item {
-        width: calc(50% - 5px);
+        width: 50%;
     }
 
     p {
